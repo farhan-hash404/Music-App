@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Ro Ro Za Zama Dilbara", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Saqi Dase Masti Ghwarham", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Ro Ro Za Zama Dilbara", filePath: "songs/1.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Saqi Dase Masti Ghwarham", filePath: "songs/2.mp3", coverPath: "covers/1.jpg"},
     {songName: "Nan Da Janan Didan Ta Zama", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Nan Shpa Zama Da Yaar", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Nan Shpa Zama Da Yaar", filePath: "songs/4.mp3", coverPath: "covers/6.jpg"},
     {songName: "Khumar Me Na Matigi", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Sta Da Bangrho Shrang", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
     {songName: "Gul De Pa Zulfo", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/10.mp3", coverPath: "covers/8.jpg"},
     {songName: "Wale Spino Jamo ", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Khwazhay Shunday De Shakara", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Khwazhay Shunday De Shakara", filePath: "songs/10.mp3", coverPath: "covers/5.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
